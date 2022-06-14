@@ -1,0 +1,4 @@
+baseURL = "https://blog.frontofanenvelope.com/"
+languageCode = "en-us"
+title = "Front of an Envelope"
+theme = "archie"
