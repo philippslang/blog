@@ -48,7 +48,7 @@ Ideally the CI system of your choice supports pipeline definition in some standa
 
 The bad news here is that we can only screw this up. If defined too loosely, your customers will loose confidence in your product if their results change unacceptably (very subjective) every other update. If defined to tightly, you will end up living a OS kernel developers life under the no regression mantra, and seriosly impede agile approaches to development. It may increase the pressure to get things right the first time to unhealthy levels, and may stall development. It may lead to having maintain different options and implementation variants, which again will stall development pace through immense maintenance burden. Success criteria for CI tests have the potential to make or break your product and development approach.
 
-{{< figure src="/img/testing-numapps/ci_hirarchy.png" caption="Interaction of CI systems with code and binaries. The only point of contact is through pipeline definitions, which typically consist of single files." >}}
+{{< figure src="./images/ci_hirarchy.png" caption="Interaction of CI systems with code and binaries. The only point of contact is through pipeline definitions, which typically consist of single files." >}}
 
 Prefer qualitative criteria over quantitative ones as much as you can afford it, *e.g.* does the algorithm converge as opposed to does the algorithm converge to this and that value plus minus tolerances. More often than not this won't be an option, but it should be the starting point imo.
 
