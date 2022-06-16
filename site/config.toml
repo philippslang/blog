@@ -2,3 +2,7 @@ baseURL = "https://blog.frontofanenvelope.com/"
 languageCode = "en-us"
 title = "Front of an Envelope"
 theme = "archie"
+googleAnalytics = "G-PZFFK47D6E"
+
+[params]
+	subtitle = "Numerical Computing in Production"
