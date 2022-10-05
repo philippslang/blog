@@ -1,11 +1,13 @@
-site/
-hugo new posts/my-first-post.md
+```
+cd site/
 hugo serve -D
 rm -rf public
-hugo -D
-
+hugo
+```
+```
 ./
 firebase deploy --only hosting
+```
 
 TODO
 ----
